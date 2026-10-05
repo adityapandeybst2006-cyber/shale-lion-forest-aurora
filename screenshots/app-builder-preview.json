@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Meridian",
+      "hasCanvas": false,
+      "bodyTextLen": 201,
+      "bodyTextHash": "fa22b4e4eccec382586247974a7a7d6b537107c0253107d5c10c1e23c381ab5b",
+      "bodyTextPrefix": "Meridian Search companies Home Markets Watchlist News Deals MOND",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Meridian",
+      "hasCanvas": false,
+      "bodyTextLen": 178,
+      "bodyTextHash": "ddbeabb9e8acd275c03f21e04e84646d5d338d3a5c8b4710168f8625f762021c",
+      "bodyTextPrefix": "Meridian MONDAY, 5 OCT Markets at a glance BENCHMARKS See all WA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
