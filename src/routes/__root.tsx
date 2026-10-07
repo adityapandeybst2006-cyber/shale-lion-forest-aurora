@@ -34,6 +34,12 @@ export const Route = createRootRoute({
         href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap",
       },
     ],
+    scripts: [
+      {
+        children:
+          "if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')})}",
+      },
+    ],
   }),
   component: () => (
     <html lang="en" className="antialiased" suppressHydrationWarning>
@@ -52,3 +58,4 @@ export const Route = createRootRoute({
     </html>
   ),
 });
+
